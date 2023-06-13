@@ -3,13 +3,13 @@ lockfileVersion: '6.0'
 devDependencies:
   '@nx/js':
     specifier: 16.3.2
-    version: 16.3.2(nx@16.3.2)(typescript@5.0.2)
+    version: 16.3.2(nx@16.3.2)(typescript@5.1.3)
   '@nx/node':
     specifier: ^16.3.2
-    version: 16.3.2(nx@16.3.2)(typescript@5.0.2)
+    version: 16.3.2(nx@16.3.2)(typescript@5.1.3)
   '@nx/plugin':
     specifier: ^16.3.2
-    version: 16.3.2(nx@16.3.2)(typescript@5.0.2)
+    version: 16.3.2(nx@16.3.2)(typescript@5.1.3)
   '@nx/workspace':
     specifier: 16.3.2
     version: 16.3.2
@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^2.6.2
     version: 2.6.2
   typescript:
-    specifier: ~5.0.2
-    version: 5.0.2
+    specifier: ~5.1.3
+    version: 5.1.3
 
 packages:
 
@@ -1615,10 +1615,10 @@ packages:
       - nx
     dev: true
 
-  /@nrwl/jest@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nrwl/jest@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-vhwrgjIn1XG3zDSlc6CSfCKBtgDEYQUWG69MdfaqrNInmmsiPkspv7eM99Xh8MGN5HMC2Epzy2todD3J2zZZuQ==}
     dependencies:
-      '@nx/jest': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nx/jest': 16.3.2(nx@16.3.2)(typescript@5.1.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -1633,10 +1633,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/js@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nrwl/js@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-UMmdA4vXy2/VWNMlpBDruT9XwGmLw/MpUaKoN2KLkai/fYN6MvB3mabc9WQ8qsNvDWshmOJ6TqAHReR25BjugQ==}
     dependencies:
-      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.1.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -1648,10 +1648,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/linter@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nrwl/linter@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-sUDQNlmRIGQnhdDmpQkJgpF9LZWKBoqXr2g9Y4yq0QlpTamxTbx8/GxMICotA52kayEx1cKbU1xvjJWPchSrlw==}
     dependencies:
-      '@nx/linter': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nx/linter': 16.3.2(nx@16.3.2)(typescript@5.1.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -1664,10 +1664,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/node@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nrwl/node@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-QRMN9K1LgfqeERdgynnLE7vruJshPVgAA1kp3AXcxZq6kmE+RxCZ/TxC6jzpCNEVg6tPYBzmBrJiqga+aDI8jQ==}
     dependencies:
-      '@nx/node': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nx/node': 16.3.2(nx@16.3.2)(typescript@5.1.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -1691,10 +1691,10 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/nx-plugin@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nrwl/nx-plugin@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-uXOrLV0+EgeHm6s5WpmAYZQ6oOuf87TFmrm3gcZHzExwNf21utFFTQVHoeQlieE/LFU/RBPsE2p+3+4d2EQTDw==}
     dependencies:
-      '@nx/plugin': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nx/plugin': 16.3.2(nx@16.3.2)(typescript@5.1.3)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -1745,15 +1745,15 @@ packages:
       tslib: 2.5.3
     dev: true
 
-  /@nx/jest@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nx/jest@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-aO8Rc+wwSXLh1jJYd2cxOT5R9BQfqjAXWZOPcvAQQonFNNfwMHrw0+YsqjWgiFtFrxzSX5RrhzVG44cOWpAdqQ==}
     dependencies:
       '@jest/reporters': 29.5.0
       '@jest/test-result': 29.5.0
-      '@nrwl/jest': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nrwl/jest': 16.3.2(nx@16.3.2)(typescript@5.1.3)
       '@nx/devkit': 16.3.2(nx@16.3.2)
-      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.0.2)
+      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.3)
       chalk: 4.1.2
       dotenv: 10.0.0
       identity-obj-proxy: 3.0.0
@@ -1776,7 +1776,7 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/js@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nx/js@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-bumLGMduNm221Sh3/wkEMEkJOC1kTlqmpx6wamDSsPlAFq0ePgoaNJjoYqC9XH7n7wXtgy9bgKhHJPnek8NKow==}
     peerDependencies:
       verdaccio: ^5.0.4
@@ -1791,10 +1791,10 @@ packages:
       '@babel/preset-env': 7.22.5(@babel/core@7.22.5)
       '@babel/preset-typescript': 7.22.5(@babel/core@7.22.5)
       '@babel/runtime': 7.22.5
-      '@nrwl/js': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nrwl/js': 16.3.2(nx@16.3.2)(typescript@5.1.3)
       '@nx/devkit': 16.3.2(nx@16.3.2)
       '@nx/workspace': 16.3.2
-      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.0.2)
+      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.3)
       babel-plugin-const-enum: 1.2.0(@babel/core@7.22.5)
       babel-plugin-macros: 2.8.0
       babel-plugin-transform-typescript-metadata: 0.3.2(@babel/core@7.22.5)
@@ -1817,7 +1817,7 @@ packages:
       - typescript
     dev: true
 
-  /@nx/linter@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nx/linter@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-hVCU6ZIMd+yTMLrC3PbjaHuD3yU+sB/lABTaWuUx2klT0cqKhiTp0KnDLcFWtzQmnNtGEaUjfPKxvA92xon0CA==}
     peerDependencies:
       eslint: ^8.0.0
@@ -1825,10 +1825,10 @@ packages:
       eslint:
         optional: true
     dependencies:
-      '@nrwl/linter': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nrwl/linter': 16.3.2(nx@16.3.2)(typescript@5.1.3)
       '@nx/devkit': 16.3.2(nx@16.3.2)
-      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.0.2)
+      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.3)
       tmp: 0.2.1
       tslib: 2.5.3
     transitivePeerDependencies:
@@ -1842,14 +1842,14 @@ packages:
       - verdaccio
     dev: true
 
-  /@nx/node@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nx/node@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-UGRuawRYQczkus3Gne3JH2xIUeWPrw63j9UM+e0IynC7ocQFNGOZYvOhEMOyoq9fdb22vno17D5v84dRGuWlsA==}
     dependencies:
-      '@nrwl/node': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nrwl/node': 16.3.2(nx@16.3.2)(typescript@5.1.3)
       '@nx/devkit': 16.3.2(nx@16.3.2)
-      '@nx/jest': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@nx/linter': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nx/jest': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@nx/linter': 16.3.2(nx@16.3.2)(typescript@5.1.3)
       '@nx/workspace': 16.3.2
       tslib: 2.5.3
     transitivePeerDependencies:
@@ -1957,15 +1957,15 @@ packages:
     dev: true
     optional: true
 
-  /@nx/plugin@16.3.2(nx@16.3.2)(typescript@5.0.2):
+  /@nx/plugin@16.3.2(nx@16.3.2)(typescript@5.1.3):
     resolution: {integrity: sha512-X/fHhw3ADep5KQE1uaPQE8bzSEUMxvTB7cMdkBd7h+WTg00Q5GHjM/E77f5Nj4oX7F2wjuenMRAS2XAV8kWWJQ==}
     dependencies:
-      '@nrwl/nx-plugin': 16.3.2(nx@16.3.2)(typescript@5.0.2)
+      '@nrwl/nx-plugin': 16.3.2(nx@16.3.2)(typescript@5.1.3)
       '@nx/devkit': 16.3.2(nx@16.3.2)
-      '@nx/jest': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@nx/linter': 16.3.2(nx@16.3.2)(typescript@5.0.2)
-      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.0.2)
+      '@nx/jest': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@nx/js': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@nx/linter': 16.3.2(nx@16.3.2)(typescript@5.1.3)
+      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.1.3)
       dotenv: 10.0.0
       fs-extra: 11.1.1
       tslib: 2.5.3
@@ -2022,13 +2022,13 @@ packages:
       node-gyp-build: 4.6.0
     dev: true
 
-  /@phenomnomnominal/tsquery@5.0.1(typescript@5.0.2):
+  /@phenomnomnominal/tsquery@5.0.1(typescript@5.1.3):
     resolution: {integrity: sha512-3nVv+e2FQwsW8Aw6qTU6f+1rfcJ3hrcnvH/mu9i8YhxO+9sqbOfpL8m6PbET5+xKOlz/VSbp0RoYWYCtIsnmuA==}
     peerDependencies:
       typescript: ^3 || ^4 || ^5
     dependencies:
       esquery: 1.5.0
-      typescript: 5.0.2
+      typescript: 5.1.3
     dev: true
 
   /@sinclair/typebox@0.25.24:
@@ -4234,9 +4234,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript@5.0.2:
-    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
-    engines: {node: '>=12.20'}
+  /typescript@5.1.3:
+    resolution: {integrity: sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
