@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@nx/js':
     specifier: 16.3.2
@@ -21,10 +25,10 @@ devDependencies:
     version: 16.3.2
   nx-cloud:
     specifier: latest
-    version: 16.0.5
+    version: 16.4.0-beta.1
   prettier:
-    specifier: ^2.6.2
-    version: 2.6.2
+    specifier: ^3.0.2
+    version: 3.0.2
   typescript:
     specifier: ~5.0.2
     version: 5.0.2
@@ -1683,10 +1687,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/nx-cloud@16.0.5:
-    resolution: {integrity: sha512-1p82ym8WE9ziejwgPslstn19iV/VkHfHfKr/5YOnfCHQS+NxUf92ogcYhHXtqWLblVZ9Zs4W4pkSXK4e04wCmQ==}
+  /@nrwl/nx-cloud@16.4.0-beta.1:
+    resolution: {integrity: sha512-XQFmpVtGJghvR+JJWgp2so0eeJSG7U1W0/WcyAskTnCSMt8M5FFotJmF4upFfRK1rexlECZ7xbcZzUXuIEqzsw==}
     dependencies:
-      nx-cloud: 16.0.5
+      nx-cloud: 16.4.0-beta.1
     transitivePeerDependencies:
       - debug
     dev: true
@@ -2045,6 +2049,12 @@ packages:
     resolution: {integrity: sha512-w1qd368vtrwttm1PRJWPW1QHlbmHrVDGs1eBH/jZvRPUFS4MNXV9Q33EQdjOdeAxZ7O8+3wM7zxztm2nfUSyKw==}
     dependencies:
       '@sinonjs/commons': 3.0.0
+    dev: true
+
+  /@swc/helpers@0.5.1:
+    resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
+    dependencies:
+      tslib: 2.5.3
     dev: true
 
   /@types/babel__core@7.20.1:
@@ -3667,11 +3677,12 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /nx-cloud@16.0.5:
-    resolution: {integrity: sha512-13P7r0aKikjBtmdZrNorwXzVPeVIV4MLEwqGY+DEG6doLBtI5KqEQk/d5B5l2dCF2BEi/LXEmLYCmf9gwbOJ+Q==}
+  /nx-cloud@16.4.0-beta.1:
+    resolution: {integrity: sha512-I62IBQDjbA3h+P8JVFrannVllj8O9/3YYfyg8sPLVYxFKwnqqsgR6kG2zHxB9Q2k0hoSU7JZ02d9oPJsRzL5rg==}
     hasBin: true
     dependencies:
-      '@nrwl/nx-cloud': 16.0.5
+      '@nrwl/nx-cloud': 16.4.0-beta.1
+      '@swc/helpers': 0.5.1
       axios: 1.1.3
       chalk: 4.1.2
       dotenv: 10.0.0
@@ -3850,9 +3861,9 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /prettier@2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
