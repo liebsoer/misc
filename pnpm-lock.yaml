@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@nx/js':
     specifier: 16.3.2
@@ -21,10 +25,10 @@ devDependencies:
     version: 16.3.2
   nx-cloud:
     specifier: latest
-    version: 16.0.5
+    version: 16.3.0
   prettier:
-    specifier: ^2.6.2
-    version: 2.6.2
+    specifier: ^3.0.3
+    version: 3.0.3
   typescript:
     specifier: ~5.0.2
     version: 5.0.2
@@ -1683,10 +1687,10 @@ packages:
       - verdaccio
     dev: true
 
-  /@nrwl/nx-cloud@16.0.5:
-    resolution: {integrity: sha512-1p82ym8WE9ziejwgPslstn19iV/VkHfHfKr/5YOnfCHQS+NxUf92ogcYhHXtqWLblVZ9Zs4W4pkSXK4e04wCmQ==}
+  /@nrwl/nx-cloud@16.3.0:
+    resolution: {integrity: sha512-nJrGsVufhY74KcP7kM7BqFOGAoO5OEF6+wfiM295DgmEG9c1yW+x5QiQaC42K9SWYn/eKQa1X7466ZA5lynXoQ==}
     dependencies:
-      nx-cloud: 16.0.5
+      nx-cloud: 16.3.0
     transitivePeerDependencies:
       - debug
     dev: true
@@ -3667,11 +3671,11 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /nx-cloud@16.0.5:
-    resolution: {integrity: sha512-13P7r0aKikjBtmdZrNorwXzVPeVIV4MLEwqGY+DEG6doLBtI5KqEQk/d5B5l2dCF2BEi/LXEmLYCmf9gwbOJ+Q==}
+  /nx-cloud@16.3.0:
+    resolution: {integrity: sha512-hmNgpeLO4v4WDSWa8YhwX+q+9ohIyY8iqxlWyIKixWzQH2XfRgYFjOLH4IDLGOlKa3hg7MB6+4+75cK9CfSmKw==}
     hasBin: true
     dependencies:
-      '@nrwl/nx-cloud': 16.0.5
+      '@nrwl/nx-cloud': 16.3.0
       axios: 1.1.3
       chalk: 4.1.2
       dotenv: 10.0.0
@@ -3850,9 +3854,9 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /prettier@2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
