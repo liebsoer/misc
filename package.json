@@ -7,7 +7,7 @@
   "devDependencies": {
     "@nx/js": "16.3.2",
     "@nx/node": "^16.3.2",
-    "@nx/plugin": "^16.3.2",
+    "@nx/plugin": "^16.8.1",
     "@nx/workspace": "16.3.2",
     "ngx-deploy-npm": "^6.0.0",
     "nx": "16.3.2",
